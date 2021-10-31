@@ -1,0 +1,156 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+/* body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-sizing: border-box;
+    background:#33658A;
+    transition: .5s color, .5s background ease-in-out;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    position:fixed;
+    top:0;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    background: #2F4858;    
+    transition: .5s color, .5s background ease-in-out;
+}
+.portrait{
+    background-image: url("Assets/self-portrait.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:1px black solid;
+    box-shadow: 3px 3px 5px black;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.night-btn{
+    position: absolute;
+    top:25px;
+    right:25px;
+    height:50px;
+    width: 50px;
+    font-size:22pt;
+    color:black;
+    border:none;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+    z-index:1;
+}
+.night-btn:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+menu{
+    position:absolute;
+    box-sizing: border-box;
+    left:0px;
+    top:200px;
+    width:80px;
+    height:calc(100% - 200px);
+    height: -o-calc(100% - 200px);
+    height: -webkit-calc(100% - 200px);
+    height: -moz-calc(100% - 200px);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+menu > div > h2{
+    writing-mode:vertical-rl;
+    text-orientation: upright;
+    padding:10px;
+}
+menu > div{
+    position: relative;
+    height:fit-content;
+    box-sizing: border-box;
+    padding:5px;
+    background: #55DDE0;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 3px 3px 5px black;
+    cursor: pointer;
+    left:-20px;
+    bottom:0;
+    z-index: 2;
+}
+menu div:nth-child(odd){
+    background: #F6AE2D;
+}
+
+
+
+
+main{
+    position:fixed;
+    top:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin:10px 50px;
+    padding:5px;
+    text-align: center;
+    transition: .5s color, .5s background ease-in-out;
+}
+main > container{
+    position:absolute;
+    top:200px;
+    height:calc(100%-200px);
+    width: 100%;
+    background: #33658A;
+    visibility: hidden;
+    z-index:1;
+    transition: .5s color, .5s background ease-in-out;
+}
+
+main > container:first-child{
+    visibility: visible;
+    z-index: 0;
+}
+container > p {
+    font-size:24pt;
+    line-height: 30pt;
+}
+
+
+
+.body-dark{
+    background:#0F1115;
+}
+.nav-dark{
+    background:#131720;
+    color:white;
+}
+.main-dark{
+    color:#0F1115;
+}
+.night-btn-dark{
+    background: black;
+    color:white;
+}
+.container-dark{
+    background:#0F1115;
+    color:white;
+} */
